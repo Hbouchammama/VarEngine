@@ -15,6 +15,7 @@ std::map<std::string, std::vector<double>> RiskCalculator::computeReturns(const 
         std::vector<double> returnList;
 
         for (size_t i = 1; i < priceList.size(); ++i) {
+     
             double logReturn = log(priceList[i] / priceList[i - 1]);
             returnList.push_back(logReturn);
         }
@@ -52,7 +53,7 @@ double RiskCalculator::historicalVaR(const std::vector<double>& returns, double 
     // Calcul de la valeur critique Z pour le niveau de confiance donné
     double Z = Utils::getZValue(confidenceLevel);
 
-    
+
     // Calcul de la VaR paramétrique
     return mean - Z * stdDev;
 }

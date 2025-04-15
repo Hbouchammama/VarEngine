@@ -12,6 +12,7 @@ std::map<std::string, std::vector<double>> DataLoader::loadHistoricalPrices(cons
         return prices;
     }
 
+    
     std::string line;
     std::vector<std::string> assetNames;
 

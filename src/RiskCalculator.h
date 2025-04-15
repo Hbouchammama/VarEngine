@@ -1,6 +1,7 @@
 #ifndef RISK_CALCULATOR_H
 #define RISK_CALCULATOR_H
 
+
 #include <vector>
 #include <map>
 #include <string>
