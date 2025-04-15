@@ -3,6 +3,7 @@
 
 #include <vector>
 
+
 class Utils {
 public:
     // Calcule la moyenne des éléments d'un vecteur

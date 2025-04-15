@@ -3,6 +3,7 @@
 
 #include <vector>
 
+
 class MonteCarloSimulator {
 public:
     // Simule la VaR via la méthode de Monte Carlo

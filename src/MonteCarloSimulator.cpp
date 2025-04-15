@@ -6,6 +6,7 @@
 #include <vector>
 #include <stdexcept>
 
+
 double MonteCarloSimulator::simulateVaR(const std::vector<double>& portfolioReturns, int numSimulations, double confidenceLevel) {
     if (confidenceLevel <= 0 || confidenceLevel >= 1) {
         throw std::invalid_argument("Le niveau de confiance doit être entre 0 et 1.");

@@ -1,3 +1,4 @@
+
 CXX = g++
 CXXFLAGS = -std=c++17 -O2
 
@@ -8,7 +9,6 @@ SRC_FILES = $(SRC_DIR)/main.cpp \
             $(SRC_DIR)/RiskCalculator.cpp \
             $(SRC_DIR)/MonteCarloSimulator.cpp \
             $(SRC_DIR)/Utils.cpp \
-            $(SRC_DIR)/Portfolio.cpp \
             $(SRC_DIR)/DataLoader.cpp
 
 OBJ_FILES = $(SRC_FILES:.cpp=.o)

@@ -40,5 +40,6 @@ VarEngine/
 Assurez-vous d’avoir installé `g++` et `make`. Puis, depuis la racine du projet :
 
 ```bash
+
 mingw32-make          
 mingw32-make clean   

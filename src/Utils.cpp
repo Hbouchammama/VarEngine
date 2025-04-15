@@ -11,7 +11,8 @@ double Utils::calculateMean(const std::vector<double>& data) {
         sum += value;
     }
     return sum / data.size();
-}
+
+} 
 
 // Calcule l'écart-type des éléments d'un vecteur
 double Utils::calculateStandardDeviation(const std::vector<double>& data) {

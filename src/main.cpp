@@ -34,7 +34,8 @@ int main() {
     double confidenceLevel = 0.95;  // Niveau de confiance 95%
     int numSimulations = 10000;  // Nombre de simulations Monte Carlo
 
-    try {
+    try { 
+        
         // Calcul de la VaR Historique
         double varHistorical = RiskCalculator::historicalVaR(historicalReturns, confidenceLevel);
         std::cout << "VaR Historique : " << varHistorical << " EUR\n";
